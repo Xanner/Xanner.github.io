@@ -1,21 +1,21 @@
 .bulma_hero__1bjCM.bulma_is-primary__1jh74 {
-  background-color: #B5838D;
+  background-color: #B5838D !important;
 }
 
 .styles_sectionIcon__1gjLR {
-  background: #E5989B;
+  background: #E5989B !important;
 }
 
 .bulma_tag__xgEBq:not(body).bulma_is-info__23I6F {
-  background-color: #6D6875;
+  background-color: #6D6875 !important;
 }
 
 .bulma_tag__xgEBq:not(body).bulma_is-primary__1jh74 {
-  background-color: #6D6875;
+  background-color: #6D6875 !important;
 }
 
 a {
-  color: #FFB4A2;
+  color: #FFB4A2 !important;;
 }
 
 .App-logo {
