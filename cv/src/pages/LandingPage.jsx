@@ -20,8 +20,8 @@ export default class LandingPage extends Component {
         sections= {[
             {
           type: 'text',
-          title: 'Career Profile',
-          content: 'When I was child, I always want to be a developer.',
+          title: 'Career',
+          content: 'When I was child, I always want to be a game developer :).',
           icon: 'usertie'
         },
         {
@@ -30,17 +30,17 @@ export default class LandingPage extends Component {
             icon: 'graduation',
             items: [
               {
-                title: 'Computer Engineering (BS)',
-                authority: 'University',
-                authorityWebSite: 'https://sample.edu',
-                rightSide: '2013 - 2017'
+                title: 'Master’s degree - Applied Computer Science',
+                authority: 'Cracow University of Technology',
+                authorityWebSite: 'https://www.pk.edu.pl/index.php?lang=pl',
+                rightSide: '2019 - 2020'
               },
               {
-                title: 'Some Department (PHD)',
-                authority: 'Another University',
-                authorityWebSite: 'https://sample.edu',
-                rightSide: '2017 - Present'
-              }
+                title: 'Bachelor’s degree - Applied Computer Science',
+                authority: 'Cracow University of Technology',
+                authorityWebSite: 'https://www.pk.edu.pl/index.php?lang=pl',
+                rightSide: '2015 - 2019'
+              },
             ]
           },
           {
@@ -49,71 +49,77 @@ export default class LandingPage extends Component {
             icon: 'archive',
             items: [
               {
-                title: 'Lead Software Developer',
-                company: 'Some Company Example INC',
-                description: 'I\'m working as a lead developer yeeeey!',
-                companyWebSite: 'http://somecompanyexample.com',
-                companyMeta: '',
-                datesBetween: '2017.10 - Present',
-                descriptionTags: ['Javascript', 'React']
+                title: 'Software Engineer',
+                company: 'Itisit Sp. z o.o.',
+                description: 'Designing, implementing new functions and maintaining web CRM application for the medical industry in React.js, Node.js and PostgreSQL). Maintaining and developing web applications in Aurelia, .NET, Oracle and PostgreSQL. Deploying applications, conducting technical interviews, leading a 4-person team.',
+                datesBetween: '2018.10 - 2020.03',
+                descriptionTags: ['JavaScript', 'React', 'Aurelia', 'Node', 'PostgreSQL', 'Cypress', 'C#', '.NET']
               },
               {
-                title: 'Software Developer',
-                company: 'Some Company Example INC',
-                description: 'I\'m using ReactJS and working as a front-end developer',
-                companyWebSite: 'http://somecompanyexample.com',
-                companyMeta: 'Little info about company',
-                datesBetween: '2016.8 - 2017.10'
+                title: 'Junior Software Developer',
+                company: 'Itisit Sp. z o.o.',
+                description: 'Responsible for both front and backend related development tasks. Creating views and web user interface components in Aurelia, designing and building a web medical application backend based on .NET technology, writing unit tests, working with PostgreSQL and Oracle databases.',
+                datesBetween: '2018.07 - 2018.10',
+                descriptionTags: ['JavaScript', 'Aurelia', '.NET', 'C#', 'JavaScript', 'SQL', 'PostreSQL', 'Oracle']
               },
               {
-                title: 'Intern',
-                company: 'Some Software Example INC',
-                description: 'I was warming up.',
-                companyWebSite: 'http://someexamplecompany.com',
-                companyMeta: 'SF USA',
-                datesBetween: '2012.06 - 2012.10'
+                title: 'IT Intern',
+                company: 'Żywiec County Office',
+                description: 'Development of the new website for the County Office in Żywiec, repairing hardware, preparing computer stations for schools.',
+                companyWebSite: 'http://www.zywiec.powiat.pl/',
+                datesBetween: '2014.05 - 2014.05',
+                descriptionTags: ['HTML', 'CSS']
+              },
+              {
+                title: 'IT Intern',
+                company: 'F + U Sachsen gGmbH',
+                description: 'Designing LAN networks, assembling computers, installing software.',
+                companyWebSite: 'https://www.fuu-sachsen.de/',
+                datesBetween: '2013.11 - 2013.11',
+                descriptionTags: ['CISCO',]
               }
             ]
           },
           {
-            type: 'projects-list',
-            title: 'Projects',
-            description: 'Optional',
-            icon: 'tasks',
-            groups: [
+            type: 'experiences-list',
+            title: 'Experience with Unity',
+            icon: 'archive',
+            items: [
               {
-                sectionHeader: 'Company Name',
-                description: 'Optional',
-                items: [
-                  { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-                  { title: 'Project', projectUrl: 'optional', description: 'Optional' },
-                  { title: 'Project', projectUrl: 'optional', description: 'Optional' }
-                ]
-              }
+                title: 'Developing casual, mobile game available on the Google Play store',
+                company: 'Bobo',
+                companyWebSite: 'https://play.google.com/store/apps/details?id=com.Kvpaideas.Bobo',
+                description: 'Designing, implementing new functions and maintaining web CRM application for the medical industry in React.js, Node.js and PostgreSQL). Maintaining and developing web applications in Aurelia, .NET, Oracle and PostgreSQL. Deploying applications, conducting technical interviews, leading a 4-person team.',
+                datesBetween: '2020.07 - currently',
+              },
+              {
+                title: 'Learning Unity due University',
+                company: 'Unity Learn',
+                companyWebSite: 'https://learn.unity.com/u/arkadiusz-klis',
+                description: 'Designing, implementing new functions and maintaining web CRM application for the medical industry in React.js, Node.js and PostgreSQL). Maintaining and developing web applications in Aurelia, .NET, Oracle and PostgreSQL. Deploying applications, conducting technical interviews, leading a 4-person team.',
+                datesBetween: '2020.02 - currently',
+              },
             ]
           },
           {
-            type: 'common-list',
-            title: 'Conferences & Certificates',
-            description: '',
+            type: 'experiences-list',
+            title: 'Activities',
             icon: 'comments',
             items: [
               {
-                title: 'Some Conferences / 2019',
-                authority: 'SomeConf',
-                authorityWebSite: 'https://www.someconf.somesome'
+                title: 'Co-Organizator',
+                company: 'IT Academic Day Conference',
+                companyWebSite: 'https://itad-pk.github.io/',
+                description: 'ITAD is an annual IT conference dedicated to different aspects of technology. The initiative reflects concern and belief that students interested in technology should be able to broaden their knowledge and to develop their skills, get acquainted with the current trends and meet potential employers.',
+                datesBetween: '2017.11.30 & 2018.12.04',
               },
               {
-                title: 'Some Conferences / 2019',
-                authority: 'SomeConf',
-                authorityMeta: 'Speaker',
-                authorityWebSite: 'https://www.someconf.somesome',
-                rightSide: 'test'
+                title: 'Participant and Lecturer',
+                company: '.NET Group of the Cracow University of Technology',
+                companyWebSite: 'https://www.facebook.com/grupa.pk.net',
+                description: 'The scientific club operating in the Faculty of Mechanical Engineering of the Cracow University of Technology conducts regular weekly meetings related to the .NET and C# technologies.',
+                datesBetween: '2015 - 2020',
               },
-              {
-                title: 'Some Conferences / 2012',
-                authorityMeta: 'Speaker'
-              }
             ]
           },
           {
@@ -122,26 +128,29 @@ export default class LandingPage extends Component {
             icon: 'language',
             items: [
               {
-                authority: 'Polish',
-                authorityMeta: 'Native'
+                title: 'Polish',
+                authority: 'Native',
               },
               {
-                authority: 'English',
-                authorityMeta: 'B2/C1'
+                title: 'English',
+                authority: 'B2',
               }
             ]
           },
           {
             type: 'tag-list',
-            title: 'Skills Proficiency',
+            title: 'Skills & Tools',
             icon: 'rocket',
-            items: ['C#','.NET','Unity','React', 'JavaScript', 'CSS', 'SQL']
+            items: ['C#','.NET', 'Unity', 'SQL',
+                    'Visual Studio', 'Visual Studio Code', 'Rider', 'ReSharper', 'GIT', 'GitLab',
+                    'Arduino', 'OOP', 'SOLID', 'React', 'JavaScript', 'HTML', 'CSS', 'SCRUM', 'REST', 'API', 'E2E', 'Unit Tests'
+            ]
           },
           {
             type: 'tag-list',
             title: 'Hobbies & Interests',
             icon: 'cubes',
-            items: ['Programing', 'Gaming', 'Abstract Art', 'Birdeaters', 'Learning']
+            items: ['Gamedev', 'Programing', 'Gaming', 'Mobile Technologies', 'Abstract Art', 'Breeding Tarantulas']
           }
     ]}
         branding={false}
