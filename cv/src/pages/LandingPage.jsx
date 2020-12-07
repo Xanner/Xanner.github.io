@@ -5,8 +5,7 @@ import CV from "react-cv";
 export default class LandingPage extends Component {
   render() {
     const careerDescription = `It all started when I was 7 years old playing Warcraft III 
-    for the first time. So I'm huge fan of Blizzard game till today, especially Overwatch, WoW, Hearthstone. 
-    After high school, I wanted to be involved in game development, so I chose Computer Science 
+    for the first time. After high school, I wanted to be involved in game development, so I chose Computer Science 
     with the idea that I would be software developer. Then I came across 
     the .NET science club where since then I was a bit more related to 
     WEB applications through cooperation with Microsoft. I found my first 
@@ -98,12 +97,14 @@ export default class LandingPage extends Component {
                 title: "Master’s degree - Applied Computer Science",
                 authority: "Cracow University of Technology",
                 authorityWebSite: "https://www.pk.edu.pl/index.php?lang=pl",
+                authorityMeta: `Master Thesis: Analysis of the Google's cross-platform solution Flutter - mobile frameworks performance comparison`,
                 rightSide: "2019.02 - 2020.09",
               },
               {
                 title: "Bachelor’s degree - Applied Computer Science",
                 authority: "Cracow University of Technology",
                 authorityWebSite: "https://www.pk.edu.pl/index.php?lang=pl",
+                authorityMeta: `Bachelor Thesis: Development of a simple House Security System - website managed security system based on Intel Edison and Arduino`,
                 rightSide: "2015.10 - 2019.02",
               },
             ],
