@@ -4,6 +4,17 @@ import CV from "react-cv";
 
 export default class LandingPage extends Component {
   render() {
+    const careerDescription = `It all started when I was 7 years old playing Warcraft III 
+    for the first time. So I'm huge fan of Blizzard game till today, especially Overwatch, WoW, Hearthstone. 
+    After high school, I wanted to be involved in game development, so I chose Computer Science 
+    with the idea that I would be software developer. Then I came across 
+    the .NET science club where since then I was a bit more related to 
+    WEB applications through cooperation with Microsoft. I found my first 
+    job as a software engineer quickly learning new things and teaching others. 
+    But let's be honest, web development is not something very interesting, 
+    but it allowed me to gain knowledge in many areas of programming. So now I 
+    aspire to become a Master of Unity by learning many of its key features. 
+    In the near future I want to learn DOTS and shader programming very well.`;
     const softwareEngineerDescription = `Design, implementation of the new functionalities 
     and maintenance of the Web CRM Application for the medical industry
     using React.js Node.js and PostgreSQL. Responsible of a maintenance 
@@ -41,8 +52,21 @@ export default class LandingPage extends Component {
       "Scrum",
     ];
 
-    const boboDescription = `Bobo descrpition placeholder`;
-    const unityLearnDescription = `Unity Learn descrpition placeholder`;
+    const boboDescription = `Bobo was an idea born during a funny outdoor game. 
+    This free to play, casual game was created from scratch then released and is still being developed. 
+    It currently includes 10 levels, star system, level pick system, currency system and skin system. 
+    All this includes the player's save system on their device.
+    The Unity ad system is also implemented, but ads are only on request so as not to spoil the player experience.`;
+    const unityLearnDescription = `I started learning Unity in 2016 in my 
+    spare time, starting with the Survival Shutter 
+    tutorial and trying to do a game project as part of .NET Group meetings, 
+    but I started studying Unity seriously during the last semester of my university. 
+    Also in the last semester there was a subject closely related 
+    to Unity called "Stereovision systems and virtual reality" where I could deepen my 
+    knowledge additionally implementing a large project as part of the classes.
+    Since the COVID outbreak, I have had the opportunity to use Unity Learn Pro where 
+    I practiced a lot and I am gaining knowledge to this day.
+    `;
 
     return (
       <CV
@@ -62,8 +86,7 @@ export default class LandingPage extends Component {
           {
             type: "text",
             title: "Career",
-            content:
-              "When I was child, I always want to be a game developer :).",
+            content: careerDescription,
             icon: "usertie",
           },
           {
