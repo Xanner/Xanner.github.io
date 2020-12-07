@@ -9,10 +9,8 @@ export default class LandingPage extends Component {
     with the idea that I would be software developer. Then I came across 
     the .NET science club where since then I was a bit more related to 
     WEB applications through cooperation with Microsoft. I found my first 
-    job as a software engineer quickly learning new things and teaching others. 
-    But let's be honest, web development is not something very interesting, 
-    but it allowed me to gain knowledge in many areas of programming. So now I 
-    aspire to become a Master of Unity by learning many of its key features. 
+    job as a software engineer quickly learning new things and teaching others, it allowed me to gain knowledge in many 
+    areas of programming. Now I aspire to become a Master of Unity by learning many of its key features. 
     In the near future I want to learn DOTS and shader programming very well.`;
     const softwareEngineerDescription = `Design, implementation of the new functionalities 
     and maintenance of the Web CRM Application for the medical industry

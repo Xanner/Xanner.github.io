@@ -68,7 +68,7 @@ a {
 }
 
 .styles_companyMeta__3g8T9, .styles_projectMeta__2KkoZ {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
