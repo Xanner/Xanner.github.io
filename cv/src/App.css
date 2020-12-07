@@ -52,3 +52,17 @@ a {
     transform: rotate(360deg);
   }
 }
+
+.floating-btn{
+  position: fixed !important;
+  right: 5%;
+  top: 5%;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
