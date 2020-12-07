@@ -183,6 +183,14 @@ export default class LandingPage extends Component {
                 datesBetween: "2017.11.30 & 2018.12.04",
               },
               {
+                title: "Member",
+                company: "KGD .NET - Kraków .NET Developers Group",
+                companyWebSite: "https://www.meetup.com/pl-PL/KGD-NET",
+                description:
+                  "The Kraków .NET Developers Group brings together people related to .NET technology from Cracow and the surrounding area. KGD .NET is the oldest group of .NET specialists in Poland.",
+                datesBetween: "2018.06 - currently",
+              },
+              {
                 title: "Participant and Lecturer",
                 company: ".NET Group of the Cracow University of Technology",
                 companyWebSite: "https://www.facebook.com/grupa.pk.net",
