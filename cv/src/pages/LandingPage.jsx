@@ -4,13 +4,13 @@ import CV from "react-cv";
 
 export default class LandingPage extends Component {
   render() {
-    const careerDescription = `It all started when I was 7 years old playing Warcraft III 
+    const aboutDescription = `It all started when I was 7 years old playing Warcraft III 
     for the first time. After high school, I wanted to be involved in game development, so I chose Computer Science 
     with the idea that I would be software developer. Then I came across 
     the .NET science club where since then I was a bit more related to 
     WEB applications through cooperation with Microsoft. I found my first 
-    job as a software engineer quickly learning new things and teaching others, it allowed me to gain knowledge in many 
-    areas of programming. Now I aspire to become a Master of Unity by learning many of its key features. 
+    job as a software engineer quickly learning new things and teaching others for nearly 2 years, it allowed me to gain knowledge in many 
+    areas of programming. Now as a 25 year old I aspire to become a Junior Unity Developer by learning many of its key features. 
     In the near future I want to learn DOTS and shader programming very well.`;
     const softwareEngineerDescription = `Design, implementation of the new functionalities 
     and maintenance of the Web CRM Application for the medical industry
@@ -82,8 +82,8 @@ export default class LandingPage extends Component {
         sections={[
           {
             type: "text",
-            title: "Career",
-            content: careerDescription,
+            title: "About Me",
+            content: aboutDescription,
             icon: "usertie",
           },
           {
