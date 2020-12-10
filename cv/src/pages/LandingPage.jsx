@@ -14,7 +14,7 @@ export default class LandingPage extends Component {
     In the near future I want to learn DOTS and shader programming very well.`;
     const softwareEngineerDescription = `Design, implementation of the new functionalities 
     and maintenance of the Web CRM Application for the medical industry
-    using React.js Node.js and PostgreSQL. Responsible of a maintenance 
+    using React.js Node.js and PostgreSQL. Responsible for a maintenance 
     and development of the web applications using Aurelia,
     .NET, Oracle and PostgreSQL. Deploying applications, conducting 
     technical reviews and leading a team of 4 devs.`;
