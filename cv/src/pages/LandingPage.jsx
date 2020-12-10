@@ -4,20 +4,22 @@ import CV from "react-cv";
 
 export default class LandingPage extends Component {
   render() {
-    const aboutDescription = `It all started when I was 7 years old playing Warcraft III 
-    for the first time. After high school, I wanted to be involved in game development, so I chose Computer Science 
-    with the idea that I would be software developer. Then I came across 
-    the .NET science club where since then I was a bit more related to 
-    WEB applications through cooperation with Microsoft. I found my first 
-    job as a software engineer quickly learning new things and teaching others for nearly 2 years, it allowed me to gain knowledge in many 
-    areas of programming. Now as a 25 year old I aspire to become a Junior Unity Developer by learning many of its key features. 
-    In the near future I want to learn DOTS and shader programming very well.`;
-    const softwareEngineerDescription = `Design, implementation of the new functionalities 
+    const aboutDescription = `It all started when I was 7 years old playing Warcraft III for 
+    the first time. After high school, I wanted to be involved in game 
+    development, so I chose Computer Science with the idea that I would 
+    be a software developer. Then I came across the .NET science club, since 
+    then I was a bit more related to web applications through cooperation with 
+    Microsoft. I found my first job as a software engineer quickly learning 
+    new things and teaching others for nearly 2 years, it allowed me to gain 
+    knowledge in many areas of programming. Now as a 25-year old I aspire to become a 
+    Junior Unity Developer by learning many of its key features. Soon, I want to learn 
+    DOTS and shader programming very well.`;
+    const softwareEngineerDescription = `Design, implementation of the new functionalities, 
     and maintenance of the Web CRM Application for the medical industry
-    using React.js Node.js and PostgreSQL. Responsible for a maintenance 
-    and development of the web applications using Aurelia,
-    .NET, Oracle and PostgreSQL. Deploying applications, conducting 
-    technical reviews and leading a team of 4 devs.`;
+    using React.js Node.js and PostgreSQL. Responsible for the maintenance 
+    and development of web applications using Aurelia,
+    .NET, Oracle, and PostgreSQL. Deploying applications, conducting 
+    technical reviews, and leading a team of 4 devs.`;
     const softwareEngineerTags = [
       "C#",
       "JavaScript",
@@ -33,7 +35,7 @@ export default class LandingPage extends Component {
 
     const juniorEngineerDescription = `
       Responsible for both front and backend related development 
-      tasks. Creating views and web user interface components in 
+      tasks. Creating views and web user interfaces components in 
       Aurelia, designing and building a web medical application 
       backend based on .NET technology, writing unit tests, 
       working with PostgreSQL and Oracle databases.`;
@@ -95,7 +97,7 @@ export default class LandingPage extends Component {
                 title: "Master’s degree - Applied Computer Science",
                 authority: "Cracow University of Technology",
                 authorityWebSite: "https://www.pk.edu.pl/index.php?lang=pl",
-                authorityMeta: `Master Thesis: Analysis of the Google's cross-platform solution Flutter - mobile frameworks performance comparison`,
+                authorityMeta: `Master Thesis: Analysis of Google's cross-platform solution Flutter - mobile frameworks performance comparison`,
                 rightSide: "2019.02 - 2020.09",
               },
               {
