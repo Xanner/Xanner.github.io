@@ -11,9 +11,7 @@ export default class LandingPage extends Component {
     then I was a bit more related to web applications through cooperation with 
     Microsoft. I found my first job as a software engineer quickly learning 
     new things and teaching others for nearly 2 years, it allowed me to gain 
-    knowledge in many areas of programming. Now as a 25-year old I aspire to become a 
-    Junior Unity Developer by learning many of its key features. Soon, I want to learn 
-    DOTS and shader programming very well.`;
+    knowledge in many areas of programming. Now I aspire to develop and gain knowledge in a gamedev.`;
     const softwareEngineerDescription = `Design, implementation of the new functionalities, 
     and maintenance of the Web CRM Application for the medical industry
     using React.js Node.js and PostgreSQL. Responsible for the maintenance 
@@ -79,6 +77,7 @@ export default class LandingPage extends Component {
             { type: "location", value: " Cracow" },
             { type: "github", value: "github.com/Xanner" },
             { type: "website", value: "learn.unity.com/u/arkadiusz-klis" },
+            { type: "twitter", value: "Date of birth: 11-07-1995" },
           ],
         }}
         sections={[
@@ -97,14 +96,14 @@ export default class LandingPage extends Component {
                 title: "Master’s degree - Applied Computer Science",
                 authority: "Cracow University of Technology",
                 authorityWebSite: "https://www.pk.edu.pl/index.php?lang=pl",
-                authorityMeta: `Master Thesis: Analysis of Google's cross-platform solution Flutter - mobile frameworks performance comparison`,
+                authorityMeta: `Master Thesis: Analysis of Google's cross-platform solution Flutter - mobile frameworks performance comparison. Final Grade: A-5.0`,
                 rightSide: "2019.02 - 2020.09",
               },
               {
                 title: "Bachelor’s degree - Applied Computer Science",
                 authority: "Cracow University of Technology",
                 authorityWebSite: "https://www.pk.edu.pl/index.php?lang=pl",
-                authorityMeta: `Bachelor Thesis: Development of a simple House Security System - website managed security system based on Intel Edison and Arduino`,
+                authorityMeta: `Bachelor Thesis: Development of a simple House Security System - website managed security system based on Intel Edison and Arduino. Final Grade: B-4.5`,
                 rightSide: "2015.10 - 2019.02",
               },
             ],
