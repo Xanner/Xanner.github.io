@@ -16,6 +16,20 @@
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
 
 	<link id="theme-style" rel="stylesheet" href="assets/css/pillar.css" />
+
+	<script>
+		window.addEventListener("load", function () {
+			var loader = document.getElementById("loader");
+			var resume = document.getElementById("resume");
+			loader.style.display = "block";
+			resume.style.display = "none";
+
+			setTimeout(function () {
+				loader.style.display = "none";
+				resume.style.display = "block";
+			}, 1000);
+		});
+	</script>
 </head>
 
 <body>
@@ -610,21 +624,6 @@
 				Kliś</small>
 		</footer>
 	</div>
-
-	<script>
-		window.addEventListener("load", function () {
-			var loader = document.getElementById("loader");
-			var resume = document.getElementById("resume");
-			loader.style.display = "block";
-			resume.style.display = "none";
-
-			setTimeout(function () {
-				loader.style.display = "none";
-				resume.style.display = "block";
-			}, 1000);
-		});
-	</script>
-
 </body>
 
 </html>
